@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import CallToActionBtn from '../buttons/callToActionBtn';
-import pizzaBG from '../../app/images/masimo-grabar-NzHRSLhc6Cs-unsplash-PhotoRoom.png-PhotoRoom.png';
+import pizzaBG from '../../app/images/pizza-header.png';
 import Navigation from '../navigation';
 
 export default function Header() {

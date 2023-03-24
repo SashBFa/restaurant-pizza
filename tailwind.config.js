@@ -9,10 +9,17 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      display: 'var(--display-font)',
+      body: 'var(--body-font)',
+    },
     extend: {
       colors: {
-        'primary-black': '#1A232E',
-        'secondary-white': '#c7c7c7',
+        'primary-color': '#7B0D1E',
+        'primary-color-light': '#9F2042',
+        'primary-color-dark': '#3D1308',
+        'primary-black': '#0F0802',
+        'primary-white': '#F8E5EE',
       },
     },
   },

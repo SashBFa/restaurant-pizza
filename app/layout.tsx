@@ -1,12 +1,13 @@
-import { Raleway, Rubik } from '@next/font/google';
+import { Raleway, Medula_One } from '@next/font/google';
 import '../styles/index.css';
 import clsx from 'clsx';
 
-const raleway = Raleway({
+const raleway = Medula_One({
   variable: '--display-font',
+  weight: '400',
 });
 
-const merriweather = Rubik({
+const merriweather = Raleway({
   variable: '--body-font',
 });
 
@@ -22,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={clsx(raleway.variable, merriweather.variable)}>
-      <body className="min-h-screen w-full bg-primary-black overflow-hidden flex flex-col items-center font-body">
+      <body className="min-h-screen w-screen bg-main-light overflow-hidden flex flex-col items-center font-body">
         {children}
       </body>
     </html>

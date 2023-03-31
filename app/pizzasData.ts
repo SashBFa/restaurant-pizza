@@ -1,7 +1,16 @@
-export const pizzasData = [
+export type PizzasType = {
+  id: number;
+  img: string;
+  name: string;
+  ingredients: string;
+  Medium_price: number;
+  Large_price: number;
+};
+
+export const pizzasData: PizzasType[] = [
   {
     id: 1,
-    img: './../../app/images/pizzas/pizza_1.jpeg',
+    img: '/images/pizzas/pizza_1.jpeg',
     name: 'Nordique',
     ingredients:
       'Sauce tomate entière, mozzarella, saumon, tomates, épinards, dormula, ail, citron, pignon de pin, olives, origan',
@@ -10,7 +19,7 @@ export const pizzasData = [
   },
   {
     id: 2,
-    img: './../../app/images/pizzas/pizza_2.jpeg',
+    img: '/images/pizzas/pizza_2.jpeg',
     name: '4 fromages',
     ingredients:
       'Sauce à base de crème et de parmesan, mozzarella, gorgonzola, parmesan, comté, cheddar, noix, canneberge',
@@ -19,7 +28,7 @@ export const pizzasData = [
   },
   {
     id: 3,
-    img: './../../app/images/pizzas/pizza_3.jpeg',
+    img: '/images/pizzas/pizza_3.jpeg',
     name: 'Cannibale',
     ingredients:
       'Sauce tomate entière, mozzarella, boeuf, bougainvillée, pepperoni, saucisses de chasse, poivrons, oignons de Crimée, sauce barbecue, origan',
@@ -28,7 +37,7 @@ export const pizzasData = [
   },
   {
     id: 4,
-    img: './../../app/images/pizzas/pizza_4.jpeg',
+    img: '/images/pizzas/pizza_4.jpeg',
     name: 'Marrakech',
     ingredients:
       'Sauce aux truffes, mozzarella, magret de canard, figues, brie, amandes, sauce grenade',
@@ -37,7 +46,7 @@ export const pizzasData = [
   },
   {
     id: 5,
-    img: './../../app/images/pizzas/pizza_5.jpeg',
+    img: '/images/pizzas/pizza_5.jpeg',
     name: 'Atlantide',
     ingredients:
       'Sauce crème, mozzarella, crevettes, moules, avocat, roquette, sauce secrète',
@@ -46,7 +55,7 @@ export const pizzasData = [
   },
   {
     id: 6,
-    img: './../../app/images/pizzas/pizza_6.jpeg',
+    img: '/images/pizzas/pizza_6.jpeg',
     name: 'Salami',
     ingredients: 'Mozzarella, sauce de tomates entières, salami premium',
     Medium_price: 9.5,
@@ -54,7 +63,7 @@ export const pizzasData = [
   },
   {
     id: 7,
-    img: './../../app/images/pizzas/pizza_7.jpeg',
+    img: '/images/pizzas/pizza_7.jpeg',
     name: 'Agneau',
     ingredients:
       'Sauce tomate entière, mozzarella, agneau, aubergine au four, salsa de tomate, oignon doux, basilic, sauce secrète',
@@ -63,7 +72,7 @@ export const pizzasData = [
   },
   {
     id: 8,
-    img: './../../app/images/pizzas/pizza_8.jpeg',
+    img: '/images/pizzas/pizza_8.jpeg',
     name: 'Pepperoni',
     ingredients:
       'Mozzarella, sauce tomate entière, vrai pepperoni italien, piment fort, câpres, origan',
@@ -72,7 +81,7 @@ export const pizzasData = [
   },
   {
     id: 9,
-    img: './../../app/images/pizzas/pizza_9.jpeg',
+    img: '/images/pizzas/pizza_9.jpeg',
     name: 'Champignons',
     ingredients:
       'Sauce aux truffes, mozzarella, champignons blancs, girolles, champignons, oignons doux, oignons verts',
@@ -81,7 +90,7 @@ export const pizzasData = [
   },
   {
     id: 10,
-    img: './../../app/images/pizzas/pizza_10.jpeg',
+    img: '/images/pizzas/pizza_10.jpeg',
     name: 'India',
     ingredients:
       'Sauce à base de parmesan et crème, mozzarella, curry, poulet au four, champignons, poivrons, origan',
@@ -90,7 +99,7 @@ export const pizzasData = [
   },
   {
     id: 11,
-    img: './../../app/images/pizzas/pizza_11.jpeg',
+    img: '/images/pizzas/pizza_11.jpeg',
     name: 'Steakhouse',
     ingredients:
       'Sauce aux truffes, mozzarella, rostbif, champignons blancs, tomates, oignons verts',
@@ -99,7 +108,7 @@ export const pizzasData = [
   },
   {
     id: 12,
-    img: './../../app/images/pizzas/pizza_12.jpeg',
+    img: '/images/pizzas/pizza_12.jpeg',
     name: 'Exotique',
     ingredients:
       'Sauce tomate entière, mozzarella, poulet fumé, ananas, poivrons, moutarde orange, canneberge, origan',
@@ -108,7 +117,7 @@ export const pizzasData = [
   },
   {
     id: 13,
-    img: './../../app/images/pizzas/pizza_13.jpeg',
+    img: '/images/pizzas/pizza_13.jpeg',
     name: 'Capricciosa',
     ingredients:
       'Sauce tomate entière, mozzarella, bacon, tomates, champignons, olives',
@@ -117,7 +126,7 @@ export const pizzasData = [
   },
   {
     id: 14,
-    img: './../../app/images/pizzas/pizza_14.jpeg',
+    img: '/images/pizzas/pizza_14.jpeg',
     name: 'Bavaroise',
     ingredients:
       'Sauce tomate entière, mozzarella, pepperoni, saucisses de chasse, poivrons, olives, sauce pesto, origans',
@@ -126,7 +135,7 @@ export const pizzasData = [
   },
   {
     id: 15,
-    img: './../../app/images/pizzas/pizza_15.jpeg',
+    img: '/images/pizzas/pizza_15.jpeg',
     name: 'Bacon',
     ingredients:
       'Sauce tomate entière, mozzarella, gorgonzola, bacon cru, piment fort, origan',
@@ -135,7 +144,7 @@ export const pizzasData = [
   },
   {
     id: 16,
-    img: './../../app/images/pizzas/pizza_16.jpeg',
+    img: '/images/pizzas/pizza_16.jpeg',
     name: 'Chèvre miel',
     ingredients:
       "Sauce à la crème selon une recette secrète de la grand-mère de quelqu'un, mozzarella, fromage de chèvre, racines, pignons de pin, miel",
@@ -144,7 +153,7 @@ export const pizzasData = [
   },
   {
     id: 17,
-    img: './../../app/images/pizzas/pizza_17.jpeg',
+    img: '/images/pizzas/pizza_17.jpeg',
     name: 'Orientale',
     ingredients:
       'Mozzarella, sauce crème, dinde, orange, amandes, mélange de vert/pukkola, canneberge, moutarde orange',
@@ -153,7 +162,7 @@ export const pizzasData = [
   },
   {
     id: 18,
-    img: './../../app/images/pizzas/pizza_18.jpeg',
+    img: '/images/pizzas/pizza_18.jpeg',
     name: 'Hunger Game',
     ingredients:
       "Sauce tomate entière, mozzarella, magret de canard sauces secrètes de l'étranger, y compris noix, poireaux, concombres, coriandre",
@@ -162,7 +171,7 @@ export const pizzasData = [
   },
   {
     id: 19,
-    img: './../../app/images/pizzas/pizza_19.jpeg',
+    img: '/images/pizzas/pizza_19.jpeg',
     name: 'Prosciutto',
     ingredients:
       'Sauce tomate entière, mozzarella, prosciutto, roquette, cerise, tomate séchée, câpres, origan, parmesan',
@@ -171,7 +180,7 @@ export const pizzasData = [
   },
   {
     id: 20,
-    img: './../../app/images/pizzas/pizza_20.jpeg',
+    img: '/images/pizzas/pizza_20.jpeg',
     name: 'Margherita',
     ingredients:
       'Sauce tomate entière, mozzarella, tomate, sauce pesto, origan',

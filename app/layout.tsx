@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={clsx(raleway.variable, merriweather.variable)}>
-      <body className="min-h-screen w-screen bg-main-light overflow-hidden flex flex-col items-center font-body">
+      <body className="min-h-screen w-screen bg-main-light flex flex-col items-center font-body">
         {children}
       </body>
     </html>

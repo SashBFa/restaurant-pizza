@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Buttons from '../buttons';
 import Navigation from '../navigation';
 import Title from '../title';
-import pizzaHead from '../../app/images/pizza_head.png';
+import pizzaHead from './../../public/images/pizza_head.png';
 
 export default function Header() {
   return (

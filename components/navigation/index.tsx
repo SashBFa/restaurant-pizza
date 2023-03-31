@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import Image from 'next/image';
-import logo from '../../app/images/logo_rounded.png';
+import logo from './../../public/images/logo_rounded.png';
 import Link from 'next/link';
 import BasketSVG from '../svg/basket/basket';
 import RightBarsSVG from '../svg/rightBars/rightBars';
